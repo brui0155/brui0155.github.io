@@ -1,3 +1,11 @@
-
-  
-
+/* this is for the body aka the everything */
+body{
+    background-color: #F5DEB3;
+}
+body{ color: #004225;}
+/* this is for profile.html */
+.text-profile{
+    background-color: white;
+    width: 750px;
+    
+}
