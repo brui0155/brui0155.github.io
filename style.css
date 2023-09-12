@@ -1,11 +1,149 @@
-/* this is for the body aka the everything */
-body{
-    background-color: #F5DEB3;
+:root 
+{
+    color: #FFFFFF;
+    background-color: #333333;
 }
-body{ color: #004225;}
-/* this is for profile.html */
-.text-profile{
-    background-color: white;
-    width: 750px;
-    
+
+/* this is for the body aka the everything */
+
+body
+{
+    background-color: #333333;
+    color: #FFFFFF;
+}
+            
+/*  HEADER */ 
+
+/*navigation menu*/
+
+ul.nav-menu
+{
+    background-color:var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    padding:50px 8%;
+    border-radius: 0.5%;
+}
+
+ul.nav-menu li
+{
+   margin: auto;
+   list-style:none;
+}
+
+ul.nav-menu li a
+{
+    text-decoration:none;
+    color: #FFFFFF;
+    background-color:#222222;
+    padding: 40px 50px 40px 50px;
+    transition: background-color 0.5s ease; 
+    border-radius: 40px;
+}
+
+ul.nav-menu li a:hover
+{ 
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+/*aside menu*/ 
+
+ul.aside-menu
+{
+    background-color:var(--background-color);
+    width:200px;
+    justify-content: space-between;
+    border-radius: 0.5%;
+
+}
+
+ul.aside-menu li
+{
+    margin: auto;
+    list-style: none;
+}
+ul.aside-menu li a
+{
+text-decoration: none;
+color: #FFFFFF;
+background-color: #222222;
+padding: 10px 15px;
+display: block;
+transition: background-color 0.5s ease; 
+border-radius: 40px ;
+}
+
+ul.aside-menu li a:hover
+{
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+/*  END HEADER */
+
+/* INDEX */
+
+.index-main
+{
+    background-color: #444444;
+    position:relative;
+    padding: 100px;
+    width: 1200px;
+    border-radius: 20px;
+    margin: auto;
+}
+.container-index-one
+{
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 15px;
+}
+.text-index-one
+{
+   flex: 1;
+}
+.image-index-one
+{
+    zoom: 30%;
+    float: right;
+    mix-blend-mode:color-dodge;
+}
+.text-index-two
+{
+    background-color: #222222;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+}
+.image-index-two
+{
+    zoom:20%;
+}
+
+/* END INDEX */
+
+/* PROFILE */
+.profile-main
+{
+    background-color: #444444;
+    position:relative;
+    padding: 100px;
+    width: 1200px;
+    border-radius: 20px;
+    margin: auto;
+}
+.text-profile
+{
+    background-color: #222222;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+}
+.image-profile
+{
+    zoom: 40%;
+
 }
