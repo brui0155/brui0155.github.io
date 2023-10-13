@@ -32,6 +32,21 @@ body
     background-color: #FFFFFF;
     color: #222222;
 }
+
+
+.link
+{
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.link:hover
+{
+    color: #333333;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
 /*  HEADER */
 
     /* NAV-MENU*/
