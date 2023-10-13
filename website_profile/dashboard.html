@@ -2,69 +2,157 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href=/style.css>
-    <title>dashboard</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <title>Dashboard</title>
 </head>
 
-<header>
-    <nav>
-        <ul class="nav-menu">
-            <li><a href="/website_profile/index.html">Home</a></li>
-            <li><a href="/website_profile/dashboard.html">Dashboard</a></li>
-            <li><a href="/website_profile/profile.html">Profile</a></li>
-            <li><a href="/website_profile/faq.html">FAQ</a></li>
-            <li><a href="/website_profile/blog.html">Blog</a></li>
-        </ul>
-    </nav>
-<div class="allign">
-        <details>
-            <summary>important Links</summary>
-            <ul class="aside-menu">
-                <li><a href="#">The HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
-                <li><a href="#">The Implementation Regulations (IR) of the HBO-ICT program</a></li>
-                <li><a href="#">The learn enviroment</a></li>
-                <li><a href="#">The team ennviroment</a></li>
-                <li><a href="#">The page in my HZ with your study progess</a></li>
-                <li><a href="#">The Github enviroment</a></li>
-            </ul>
-        </details>
-    </div>
-</header>
 
 <body>
-    <main>
-        <div>
-            <h1>dashboard</h1>
-            <table style="width: 100%">
-                <tr>
-                  <th>Quartile</th>
-                  <th>Course</th>
-                  <th>EC</th>
-                  <th>Exam</th>
-                  <th>Grade</th>
-                </tr>
-                <tr>
-                  <th>Quartile 1: Introduction to Computer Science.</th>
-                </tr> 
-                <tr>
-                  <th>Quartile 2: Game Development.</th>
-                </tr> 
-                <tr>
-                  <th>Quartile 3: Modern Software pt.1</th>
-                </tr>
-                <tr>
-                  <th>Quartile 4: Modern Software pt.2</th>
-                </tr>
-                <tr>
-                  <th>PCO</th>
-                </tr>
-              </table>
-        </div>
-    </main>
+
+  <header>
+    <h1>ICT Lars de Bruijne</h1>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a id="nav-menu-now" href="dashboard.html">Dashboard</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+
+    <div class="aside-menu">
+      <button class="aside-btn">Important Links</button>
+      <div class="aside-menu-content">
+        <ul>
+          <li><a
+              href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20230720.pdf">The
+              HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
+          <li><a
+              href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2021-2022/11.-Uitvoeringsregeling-OER-ICT-Voltijd-2021-2022.pdf">The
+              Implementation Regulations (IR) of the HBO-ICT program</a></li>
+          <li><a href="https://learn.hz.nl/"> Learn Enviroment</a></li>
+          <li><a href="https://www.microsoft.com/nl-nl/microsoft-teams/log-in">The Teams ennviroment</a></li>
+          <li><a href="https://hz.osiris-student.nl/">The page in my HZ with your study progess</a></li>
+          <li><a href="https://github.com/HZ-HBO-ICT">The Github enviroment</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <div class="dashboard-main">
+      <h2>Dashboard</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Quartile</th>
+            <th>Course</th>
+            <th>Grade</th>
+            <th>EC</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="3">Quartile 1</td>
+            <td>Program & Career Orientation</td>
+            <td>
+              <label><input type="radio" name="course1" value="Passed"> Passed</label>
+              <label><input type="radio" name="course1" value="Failed"> Failed</label>
+            </td>
+            <td>2.5</td>
+          </tr>
+          <tr>
+            <td>Computer Science Basics</td>
+            <td>
+              <label><input type="radio" name="course2" value="Passed"> Passed</label>
+              <label><input type="radio" name="course2" value="Failed"> Failed</label>
+            </td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Programming Basics</td>
+            <td>
+              <label><input type="radio" name="course3" value="Passed"> Passed</label>
+              <label><input type="radio" name="course3" value="Failed"> Failed</label>
+            </td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Quartile 2</td>
+            <td>Object Oriented Programming</td>
+            <td>
+              <label><input type="radio" name="course4" value="Passed"> Passed</label>
+              <label><input type="radio" name="course4" value="Failed"> Failed</label>
+            </td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Quartile 3</td>
+            <td>Framework Development 1</td>
+            <td>
+              <label><input type="radio" name="course5" value="Passed"> Passed</label>
+              <label><input type="radio" name="course5" value="Failed"> Failed</label>
+            </td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Framework Project 1</td>
+            <td>
+              <label><input type="radio" name="course6" value="Passed"> Passed</label>
+              <label><input type="radio" name="course6" value="Failed"> Failed</label>
+            </td>
+            <td>7.5</td>
+          </tr>
+          <tr>
+            <td>Quartile 4</td>
+            <td>Framework Project 2</td>
+            <td>
+              <label><input type="radio" name="course7" value="Passed"> Passed</label>
+              <label><input type="radio" name="course7" value="Failed"> Failed</label>
+            </td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td rowspan="3">All year</td>
+            <td>Personal Professional Development</td>
+            <td>
+              <label><input type="radio" name="course8" value="Passed"> Passed</label>
+              <label><input type="radio" name="course8" value="Failed"> Failed</label>
+            </td>
+            <td>12.5</td>
+          </tr>
+          <tr>
+            <td>IT Personality 1</td>
+            <td>
+              <label><input type="radio" name="course9" value="Passed"> Passed</label>
+              <label><input type="radio" name="course9" value="Failed"> Failed</label>
+            </td>
+            <td>1.25</td>
+          </tr>
+          <tr>
+            <td>IT Personality 2</td>
+            <td>
+              <label><input type="radio" name="course10" value="Passed"> Passed</label>
+              <label><input type="radio" name="course10" value="Failed"> Failed</label>
+            </td>
+            <td>1.25</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <label for="progress-bar">NBSA boundary is 45 and here is how much I got already out of the 60 EC's</label>
+      <progress id="progress-bar" value="10" max="100"> 10% </progress>
+    </div>
+
+
+
+
+    </div>
+  </main>
 </body>
+
 </html>
-
-
-<!-- I need to change every href for the nav menu, this only applies when I get git working-->

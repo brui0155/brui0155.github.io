@@ -1,86 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!--this is the code for nav menu-->
-    <header>
-         <ul class="nav-menu">
-            <li><a href="file:///C:/Users/larsd/Documents/html_profile/website_profile/index.html">Home</a></li>
-            <li><a href="file:///C:/Users/larsd/Documents/html_profile/website_profile/dashboard.html">Dashboard</a></li>
-            <li><a href="file:///C:/Users/larsd/Documents/html_profile/website_profile/profile.html">Profile</a></li>
-            <li><a href="file:///C:/Users/larsd/Documents/html_profile/website_profile/faq.html">FAQ</a></li>
-            <li><a href="file:///C:/Users/larsd/Documents/html_profile/website_profile/blog.html">Blog</a></li>
-        </ul>
-    </header>
-    <body>
-        <main>
-                <!--this is the code for the aside menu-->
-            <section>
-                <ul>
-                    <li><a href="#">The HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
-                    <li><a href="#">The Implementation Regulations (IR) of the HBO-ICT program</a></li>
-                    <li><a href="#">The learn enviroment</a></li>
-                    <li><a href="#">The team ennviroment</a></li>
-                    <li><a href="#">The page in my HZ with your study progess</a></li>
-                    <li><a href="#">The Github enviroment</a></li>
-                 </ul>
-            </section>
-        </main>
-    </body>
+  <!--this is the code for nav menu-->
+  <header>
+    <ul class="nav-menu">
+      <li><a href="file:///C:/Users/larsd/Documents/html_profile/website_profile/index.html">Home</a></li>
+      <li><a href="file:///C:/Users/larsd/Documents/html_profile/website_profile/dashboard.html">Dashboard</a>
+      </li>
+      <li><a href="file:///C:/Users/larsd/Documents/html_profile/website_profile/profile.html">Profile</a></li>
+      <li><a href="file:///C:/Users/larsd/Documents/html_profile/website_profile/faq.html">FAQ</a></li>
+      <li><a href="file:///C:/Users/larsd/Documents/html_profile/website_profile/blog.html">Blog</a></li>
+    </ul>
+  </header>
+
+<body>
+  <main>
+    <!--this is the code for the aside menu-->
+    <section>
+      <ul>
+        <li><a href="#">The HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
+        <li><a href="#">The Implementation Regulations (IR) of the HBO-ICT program</a></li>
+        <li><a href="#">The learn enviroment</a></li>
+        <li><a href="#">The team ennviroment</a></li>
+        <li><a href="#">The page in my HZ with your study progess</a></li>
+        <li><a href="#">The Github enviroment</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
 </head>
+
 </html>
 <!-- this is for something random that did not work-->
 body{
-    background-color: 	#004225
-    color: #fff
-    ;
+background-color: #004225
+color: #fff
+;
 }
 content{ background-color: #F5DEB3
 }
 button{
-    background-color: #F5DEB3;
-    color: #004225;
+background-color: #F5DEB3;
+color: #004225;
+}
+<!-- this is for toggle list-->
 
-    <!-- this is for toggle list-->
+<details>
+  <summary> your main text that pops up straight away</summary>
+  <p>text that goes here</p>
+</details>
 
-    <details>
-        <summary> your main text that pops up straight away</summary>
-        <p>text that goes here</p>
-    </details>
-   
-    <!-- this is a code that does not work for intergrating a other html file eg. a header or footer.html-->
-    
-    <object data="/header.html" type="text/html" width="100%" height="200"></object>
-   
-    <!-- this is my code that I use for the header-->
-    <header>
-        <nav >
-            <ul class="nav-menu">
-                <li><a href="/website_profile/index.html">Home</a></li>
-                <li><a href="/website_profile/dashboard.html">Dashboard</a></li>
-                <li><a href="/website_profile/profile.html">Profile</a></li>
-                <li><a href="/website_profile/faq.html">FAQ</a></li>
-                <li><a href="/website_profile/blog.html">Blog</a></li>
-            </ul>
-        </nav>
-        <div >
-            <ul class="aside-menu">
-                <li><a href="#">The HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
-                <li><a href="#">The Implementation Regulations (IR) of the HBO-ICT program</a></li>
-                <li><a href="#">The learn enviroment</a></li>
-                <li><a href="#">The team ennviroment</a></li>
-                <li><a href="#">The page in my HZ with your study progess</a></li>
-                <li><a href="#">The Github enviroment</a></li>
-             </ul>
-    </header>
+<!-- this is a code that does not work for intergrating a other html file eg. a header or footer.html-->
+
+<object data="/header.html" type="text/html" width="100%" height="200"></object>
+
+<!-- this is my code that I use for the header-->
+<header>
+  <nav>
+    <ul class="nav-menu">
+      <li><a href="/website_profile/index.html">Home</a></li>
+      <li><a href="/website_profile/dashboard.html">Dashboard</a></li>
+      <li><a href="/website_profile/profile.html">Profile</a></li>
+      <li><a href="/website_profile/faq.html">FAQ</a></li>
+      <li><a href="/website_profile/blog.html">Blog</a></li>
+    </ul>
+  </nav>
+  <div>
+    <ul class="aside-menu">
+      <li><a href="#">The HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
+      <li><a href="#">The Implementation Regulations (IR) of the HBO-ICT program</a></li>
+      <li><a href="#">The learn enviroment</a></li>
+      <li><a href="#">The team ennviroment</a></li>
+      <li><a href="#">The page in my HZ with your study progess</a></li>
+      <li><a href="#">The Github enviroment</a></li>
+    </ul>
+</header>
+<table border="2px solid black">
+  <tr>
+    <th style="width:10%">Quartile</th>
+    <th style="width:70%">Course</th>
+    <th style="width:10%">Grade</th>
+    <th style="width:10%">EC</th>
+  </tr>
+  <tr></tr>
+  <td>1</td>
+  <td>Program & Career Orientation</td>
+  <td>x</td>
+  <td>2,5</td>
+  </tr>
+  <tr></tr>
+  <td>1</td>
+  <td>Computer Science Basics</td>
+  <td>x</td>
+  <td>5</td>
+  </tr>
+  <tr></tr>
+  <td>1</td>
+  <td>programming Basics</td>
+  <td>x</td>
+  <td>5</td>
+  </tr>
+  <tr></tr>
+  <td>2</td>
+  <td>Object Orientated Programming</td>
+  <td>x</td>
+  <td>10</td>
+  </tr>
+  <tr></tr>
+  <td>3</td>
+  <td>Framework Development 1</td>
+  <td>x</td>
+  <td>5</td>
+  </tr>
+  <tr></tr>
+  <td>3</td>
+  <td>Framework Project 1</td>
+  <td>x</td>
+  <td>7,5</td>
+  </tr>
+  <tr></tr>
+  <td>4</td>
+  <td>Framework Project 2</td>
+  <td>x</td>
+  <td>10</td>
+  </tr>
+  <tr></tr>
+  <td>All</td>
+  <td>Personal Professional Development</td>
+  <td>x</td>
+  <td>12,5</td>
+  </tr>
+  <tr></tr>
+  <td>All</td>
+  <td>IT Personality 1</td>
+  <td>x</td>
+  <td>1,25</td>
+  </tr>
+  <tr></tr>
+  <td>All</td>
+  <td>IT Personality 2</td>
+  <td>x</td>
+  <td>1,25</td>
+  </tr>
+</table>
 
 
-    /* this is for profile.html */
+/* this is for profile.html */
 
 .text-profile
 {
-    background-color: white;
-    width: 750px;
-    padding: 10px;
-    display: block;
+background-color: white;
+width: 750px;
+padding: 10px;
+display: block;
 }
- 
+
+
+
+
+
+<article>
+  <div class="box">
+    <p>14/09/2023</p>
+    <h3></h3>
+    <p>information</p>
+    <a href="#">read more</a>
+  </div>
+</article>
+<article>
+  <div class="box">
+    <p>14/09/2023</p>
+    <h3>Study Choice</h3>
+    <p>information</p>
+    <a href="#">read more</a>
+  </div>
+</article>
+<article>
+  <div class="box">
+    <p>14/09/2023</p>
+    <h3>Study Choice</h3>
+    <p>information</p>
+    <a href="#">read more</a>
+  </div>
+</article>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <title>Dashboard</title>
+</head>
+
+<header>
+  <h1> ICT LARS DE BRUIJNE</h1>
+  <nav>
+    <ul class="nav-menu">
+      <li><a id="active-menu" href="index.html">Home</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="aside-menu">
+    <button class="aside-btn">Important Links</button>
+    <div class="aside-menu-content">
+      <ul>
+        <li><a href="#">The HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
+        <li><a href="#">The Implementation Regulations (IR) of the HBO-ICT program</a></li>
+        <li><a href="#">The Learn enviroment</a></li>
+        <li><a href="#">The Teams ennviroment</a></li>
+        <li><a href="#">The page in my HZ with your study progess</a></li>
+        <li><a href="#">The Github enviroment</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<body>
+  <main>
+    <div class="dashboard-main">
+      <table border="2px solid black">
+        <tr>
+          <th style="width:10%">Quartile</th>
+          <th style="width:70%">Course</th>
+          <th style="width:10%">Grade</th>
+          <th style="width:10%">EC</th>
+        </tr>
+        <tr></tr>
+        <td>1</td>
+        <td>Program & Career Orientation</td>
+        <td>x</td>
+        <td>2,5</td>
+        </tr>
+        <tr></tr>
+        <td>1</td>
+        <td>Computer Science Basics</td>
+        <td>x</td>
+        <td>5</td>
+        </tr>
+        <tr></tr>
+        <td>1</td>
+        <td>programming Basics</td>
+        <td>x</td>
+        <td>5</td>
+        </tr>
+        <tr></tr>
+        <td>2</td>
+        <td>Object Orientated Programming</td>
+        <td>x</td>
+        <td>10</td>
+        </tr>
+        <tr></tr>
+        <td>3</td>
+        <td>Framework Development 1</td>
+        <td>x</td>
+        <td>5</td>
+        </tr>
+        <tr></tr>
+        <td>3</td>
+        <td>Framework Project 1</td>
+        <td>x</td>
+        <td>7,5</td>
+        </tr>
+        <tr></tr>
+        <td>4</td>
+        <td>Framework Project 2</td>
+        <td>x</td>
+        <td>10</td>
+        </tr>
+        <tr></tr>
+        <td>All</td>
+        <td>Personal Professional Development</td>
+        <td>x</td>
+        <td>12,5</td>
+        </tr>
+        <tr></tr>
+        <td>All</td>
+        <td>IT Personality 1</td>
+        <td>x</td>
+        <td>1,25</td>
+        </tr>
+        <tr></tr>
+        <td>All</td>
+        <td>IT Personality 2</td>
+        <td>x</td>
+        <td>1,25</td>
+        </tr>
+      </table>
+    </div>
+
+  </main>
+</body>
+
+</html>
+
+
+<!-- I need to change every href for the nav menu, this only applies when I get git working-->
+
+<!--my diploma list but not sure if I need it again-->
+
+<div class="diploma-list">
+  <h3> My previous education consist of my:</h3>
+  <ul>
+    <li>Havo diploma</li>
+    <li>An Cambridge</li>
+    <li>Swim diploma A,B and C</li>
+  </ul>
+</div>
+
+<!--nav menu-->
+
+<div class="aside-menu">
+  <button class="aside-btn">Important Links</button>
+  <div class="aside-menu-content">
+    <ul>
+      <li><a
+          href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20230720.pdf">The
+          HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
+      <li><a
+          href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2021-2022/11.-Uitvoeringsregeling-OER-ICT-Voltijd-2021-2022.pdf">The
+          Implementation Regulations (IR) of the HBO-ICT program</a></li>
+      <li><a href="https://learn.hz.nl/"> Learn Enviroment</a></li>
+      <li><a href="https://www.microsoft.com/nl-nl/microsoft-teams/log-in">The Teams ennviroment</a></li>
+      <li><a href="https://hz.osiris-student.nl/">The page in my HZ with your study progess</a></li>
+      <li><a href="https://github.com/HZ-HBO-ICT">The Github enviroment</a></li>
+    </ul>
+  </div>
+</div>
+
+<!--previous text of profile-->
+Last Year I took a gap year. I was already quite passionate about gaming before I took a gap year.
+Games like Call of Duty,
+Rainbow
+Six Siege, and Escape from Tarkov provided me with a sense of challenge, strategy that I treasured.
+
+I started working as a server at Oud Hulst, which I truly loved.It gave me excellent customer
+service
+experience and helped me establish completely new connections with people.
+The decision I made to accept a comparable position at Dok 14 was motivated by my desire for new
+opportunities.
+My passion of gaming and my exploration of various waiter professions during my gap year led to a
+remarkable
+time.
+It gave me a moment to reflect, helped me identify my passions and goals, and eventually prepared me
+for
+the next chapter in my life.
+
+<!--original dashboard-->
+<div class="dashboard-main">
+  <h1>Dashboard</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Quartile</th>
+        <th>Course</th>
+        <th>Grade</th>
+        <th>EC</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Program & Career Orientation</td>
+        <td>x</td>
+        <td>2.5</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Computer Science Basics</td>
+        <td>x</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Programming Basics</td>
+        <td>x</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Object Oriented Programming</td>
+        <td>x</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Framework Development 1</td>
+        <td>x</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Framework Project 1</td>
+        <td>x</td>
+        <td>7.5</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Framework Project 2</td>
+        <td>x</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>All</td>
+        <td>Personal Professional Development</td>
+        <td>x</td>
+        <td>12.5</td>
+      </tr>
+      <tr>
+        <td>All</td>
+        <td>IT Personality 1</td>
+        <td>x</td>
+        <td>1.25</td>
+      </tr>
+      <tr>
+        <td>All</td>
+        <td>IT Personality 2</td>
+        <td>x</td>
+        <td>1.25</td>
+      </tr>
+    </tbody>
+  </table>

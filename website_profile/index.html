@@ -3,49 +3,59 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href=/style.css>
     <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href=/style.css>
 </head>
 
-<header>
-    <nav>
-        <ul class="nav-menu">
-            <li><a href="/website_profile/index.html">Home</a></li>
-            <li><a href="/website_profile/dashboard.html">Dashboard</a></li>
-            <li><a href="/website_profile/profile.html">Profile</a></li>
-            <li><a href="/website_profile/faq.html">FAQ</a></li>
-            <li><a href="/website_profile/blog.html">Blog</a></li>
-        </ul>
-    </nav>
-
-    <div>
-        <details>
-            <summary>Important Links</summary>
-            <ul class="aside-menu">
-                <li><a href="#">The HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
-                <li><a href="#">The Implementation Regulations (IR) of the HBO-ICT program</a></li>
-                <li><a href="#">The learn enviroment</a></li>
-                <li><a href="#">The team ennviroment</a></li>
-                <li><a href="#">The page in my HZ with your study progess</a></li>
-                <li><a href="#">The Github enviroment</a></li>
-            </ul>
-        </details>
-    </div>
-</header>
-
 <body>
+
+    <header>
+        <h1>ICT Lars de Bruijne</h1>
+        <nav>
+            <ul class="nav-menu">
+                <li><a id="nav-menu-now" href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+
+        <div class="aside-menu">
+            <button class="aside-btn">Important Links</button>
+            <div class="aside-menu-content">
+                <ul>
+                    <li><a
+                            href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20230720.pdf">The
+                            HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
+                    <li><a
+                            href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2021-2022/11.-Uitvoeringsregeling-OER-ICT-Voltijd-2021-2022.pdf">The
+                            Implementation Regulations (IR) of the HBO-ICT program</a></li>
+                    <li><a href="https://learn.hz.nl/"> Learn Enviroment</a></li>
+                    <li><a href="https://www.microsoft.com/nl-nl/microsoft-teams/log-in">The Teams ennviroment</a></li>
+                    <li><a href="https://hz.osiris-student.nl/">The page in my HZ with your study progess</a></li>
+                    <li><a href="https://github.com/HZ-HBO-ICT">The Github enviroment</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
     <main>
+
         <div class="index-main">
-            <div class="container-index-one">
-                <div class="text-index-one">
+            <div id="container-index-one">
+                <div id="text-index-one">
                     <h1>My reason why I chose HBO ICT</h1>
                     <p> In my gap year I did not know what I wanted to study but I needed to start next year or
                         otherwise I
                         would be stuck working as a waiter for the rest of my life. Not that being a waiter is a bad job
                         but
                         I
-                        could not see myself as a waiter my whole life. So as any person would do that has no idea what
+                        could not see myself as a waiter at <a id="dok-link"
+                            href="https://www.strandpaviljoendok14.nl/index.php">DOK
+                            14</a> my whole life. So as any person would do that has no idea what
                         he
                         wants
                         to do for the rest of his or her life I set out to look at studies and what I wanted to do
@@ -63,13 +73,12 @@
                         works. I
                         applied and now here I am.</p>
                 </div>
-                        <div class="image-index-one">
-                        <img src="images/metro snow.jpg" alt="metro exodus">
-                    </div>
+                <div id="image-index-one">
+                    <img src="images/metro snow.jpg" alt="metro exodus">
+                </div>
             </div>
 
-
-            <div class="text-index-two">
+            <div id="text-index-two">
                 <h2>My previous experience with coding</h2>
                 <p>My previous experience of coding or almost anything related to ICT is basically non existing however
                     I
@@ -83,26 +92,28 @@
                     have much experience but I have always thought about programming and I would love to get to know how
                     this crazy yet stunning world works.</p>
             </div>
+            <div id="container-index-two">
 
-            <div class="image-index-two">
-                <img src="images/r6s.jpg" alt="Rainbow Six Siege">
+                <div id="image-index-two">
+                    <img src="images/r6s.jpg" alt="Rainbow Six Siege">
+                </div>
+
+                <div>
+                    <h3>Games that I really loved playing</h3>
+                    <ul id="ul-game-list">
+                        <li>Metro Exodus</li>
+                        <li>Destiny 2</li>
+                        <li>Bloodborne</li>
+                        <li>Call of Duty: Black Ops 3</li>
+                        <li>Elden Ring</li>
+                        <li><a id="r6s-link" href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege">Rainbow Six
+                                Siege</a> </li>
+                    </ul>
+                </div>
             </div>
-
-        <div>
-            <ul>
-                <fieldset>
-                    <legend>Games that I really loved playing</legend>
-                    <li>Metro Exodus</li>
-                    <li>Destiny 2</li>
-                    <li>Bloodborne</li>
-                    <li>Call of Duty: Black Ops 3</li>
-                    <li>Elden Ring</li>
-                    <li>Rainbow Six Siege</li>
-                </fieldset>
-            </ul>
-        </div>
         </div>
     </main>
+    <footer></footer>
 </body>
 
 </html>
