@@ -9,7 +9,7 @@ html
 body 
 {
     background-color: #333333;
-    color: #FFFFFF;
+    color: #FFFFFF; 
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
@@ -259,10 +259,6 @@ tr:nth-child(even)
     background-color: #333333;
 }
 
-#progress-bar
-{
-
-}
 
 /* END DASHBOARD */
 
@@ -304,6 +300,16 @@ tr:nth-child(even)
 zoom:40%;    
 }
 /* BLOG */
+
+.container-blog
+{
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 15px;
+}
+
 
 .blog-article 
 {
